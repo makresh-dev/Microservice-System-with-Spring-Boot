@@ -63,10 +63,10 @@ flowchart TD;
 All APIs are accessed via the API Gateway (port 8081 & 8082).
 
     Service	Method	        Endpoint	        Description
-    Order Service	        POST/api/orders	        Create a new order
-    Order Service	        GET/api/orders	        Retrieve all orders
-    Inventory Service	POST/api/inventory	Add a new inventory item
-    Inventory Service	GET/api/inventory	Retrieve all inventory items
+    Order Service	        POST/api/orders	    Create a new order
+    Order Service	        GET/api/orders	    Retrieve all orders
+    Inventory Service	    POST/api/inventory	Add a new inventory item
+    Inventory Service	    GET/api/inventory	Retrieve all inventory items
 
 
 ## 🧪 Example JSON Payloads
