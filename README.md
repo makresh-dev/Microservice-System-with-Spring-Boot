@@ -91,10 +91,10 @@ All APIs are accessed via the API Gateway (port 8081 & 8082).
 ## ⚙️ Running the Project
 ### 🪄 Prerequisites
 
-    **Java 17+**
-    **Maven**
-    **Docker (or local MySQL + MongoDB)**
-    **Postman or cURL**
+    Java 17
+    Maven
+    Docker (or local MySQL + MongoDB)
+    Postman or cURL
 
 ## 🧾 Steps
 
@@ -171,14 +171,14 @@ springboot-microservices/
 ```
 
 ## 🧰 Technologies Used
-**Java 17**
-**Spring Boot 3.2**
-**Spring Cloud 2023.0.x**
-**Spring Cloud Gateway**
-**Netflix Eureka**
-**MySQL / MongoDB**
-**Docker**
-**Maven**
+    Java 17
+    Spring Boot 3.2
+    Spring Cloud 2023.0.x
+    Spring Cloud Gateway
+    Netflix Eureka
+    MySQL / MongoDB
+    Docker
+    Maven
 
 ## 💡 Future Enhancements
 
