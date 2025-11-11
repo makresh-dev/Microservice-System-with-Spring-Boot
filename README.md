@@ -105,36 +105,36 @@ cd springboot-microservices
 ```
 
 ### Start the databases (Docker recommended)
-### MySQL
+#### MySQL
 ```bash
 docker run -d --name mysql-orders -e MYSQL_ROOT_PASSWORD=root \
   -e MYSQL_DATABASE=orderservice -p 3306:3306 mysql:8.0
 ```
-### MongoDB
+#### MongoDB
 ```bash
 docker run -d --name mongodb-inventory -e MONGO_INITDB_DATABASE=inventoryservice \
   -p 27017:27017 mongo:6.0
 ```
 
-### Start the Eureka Server
+#### Start the Eureka Server
 ```bash
 cd eureka-server
 mvn spring-boot:run
 ```
 
-### Start the Order Service
+#### Start the Order Service
 ```bash
 cd ../order-service
 mvn spring-boot:run
 ```
 
-### Start the Inventory Service
+#### Start the Inventory Service
 ```bash
 cd ../inventory-service
 mvn spring-boot:run
 ```
 
-### Start the API Gateway
+#### Start the API Gateway
 ```bash
 cd ../api-gateway
 mvn spring-boot:run
